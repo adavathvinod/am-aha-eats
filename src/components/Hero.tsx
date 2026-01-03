@@ -1,7 +1,6 @@
 import { Star, MapPin, Clock, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ambienceBar from "@/assets/ambience-bar.png";
-import logoBanner from "@/assets/logo-banner-correct.png";
 
 const Hero = () => {
   const scrollToMenu = () => {
@@ -37,13 +36,12 @@ const Hero = () => {
             <span className="text-sm font-semibold text-foreground">4.7 Stars • 2,600+ Google Reviews</span>
           </div>
 
-          {/* Logo Banner */}
-          <div className="mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <img 
-              src={logoBanner} 
-              alt="Am Aha - Telugu Kitchen and Bar" 
-              className="h-28 md:h-36 lg:h-44 mx-auto object-contain drop-shadow-2xl"
-            />
+          {/* Logo Text - Clean without box */}
+          <div className="mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-foreground drop-shadow-2xl">
+              <span className="text-gradient-copper">Am</span> <span className="text-teal">Aha</span>
+            </h1>
+            <p className="text-lg md:text-xl text-gold font-medium tracking-[0.3em] mt-2">TELUGU KITCHEN AND BAR</p>
           </div>
 
           {/* Tagline */}
