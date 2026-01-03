@@ -6,6 +6,7 @@ import ReservationSection from "@/components/ReservationSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <MenuSection />
       <AmbienceSection />
       <ReviewsSection />
+      <WhatsAppButton />
       <ReservationSection />
       <ContactSection />
       <Footer />
